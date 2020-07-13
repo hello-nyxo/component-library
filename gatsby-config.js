@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Stortybook with typescript',
+    title: 'Nyxo UI library',
   },
   plugins: [
     'gatsby-plugin-typescript',
@@ -18,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'Nyxo UI library',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
